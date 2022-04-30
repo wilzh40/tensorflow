@@ -12,8 +12,8 @@ and [Rust](https://github.com/tensorflow/rust).
 The following commands:
 
 ```sh
-bazel test --config opt //tensorflow/tools/lib_package:libtensorflow_test
-bazel build --config opt //tensorflow/tools/lib_package:libtensorflow
+bazel test -c opt //tensorflow/tools/lib_package:libtensorflow_test
+bazel build -c opt //tensorflow/tools/lib_package:libtensorflow
 ```
 
 test and produce the archive at
